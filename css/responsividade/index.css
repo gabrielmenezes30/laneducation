@@ -1,0 +1,60 @@
+
+
+@media (max-width: 1125px){
+    .navbar{
+       width: 100%;
+    }
+
+    .botao{
+        width: 200px;
+        height: 100px;
+    }
+
+    .texto-botao{
+        font-size: 25px;
+    }
+
+
+    .paragrafo-postagens p{
+        font-size: 35px;
+    }
+
+
+    .cliqueparaver{
+        font-size: 30px;
+    }
+
+    .video-propriedades p{
+        font-size: 30px;
+    }
+
+    .video-amostra iframe{
+        width: 720px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 790px){
+    .navbar-final{
+        display: none;
+    }
+    .imagens-contato img{
+        width: 40px;
+    }
+   
+    .imagens-final{
+        margin-right: 100px;
+    }
+
+    .imagens-contato{
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:500px){
+    .nave{
+        display: none;
+    }
+}

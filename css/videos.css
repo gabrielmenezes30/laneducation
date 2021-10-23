@@ -1,0 +1,56 @@
+
+.navbar ul a{
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+.navbar .cor{
+    color: #111111;
+}
+
+.navbar .cor:hover{
+    color: chocolate;
+}
+
+.navbar ul a:hover{
+    color: #FF0040;
+    transition: 200ms ease all;
+}
+
+.icones-pagina-video{
+    margin-top: 100px;
+    background-color: #FF0040;
+    
+}
+
+.paragrafo-1{   
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.paragrafo-2{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ajuste{
+    display: flex;
+    justify-content: center;
+}
+
+.video-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+

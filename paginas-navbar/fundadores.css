@@ -1,0 +1,68 @@
+.navbar-inicial{
+    background-color: #ffffff ;
+}
+
+.navbar-inicial a{
+    color: #424242;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.body{
+    background-color: #F2F2F2;
+    font-family: 'Josefin Sans' sans-serif;
+}
+
+.navbar a:hover{
+    color: #7401DF;
+}
+
+.navbar-text{
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.section1{
+    display: flex;
+}
+
+.texto-fundadores{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 25vh;
+}
+
+.teste{
+    margin-top: 30vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30vh;
+}
+
+.tamanho-nomes{
+    font-size: 30px;
+}
+
+
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+
+.propriedades-tab{
+    margin-top: 10vh;
+}
+
+.testesvg{
+    margin-top: 30vh;
+}

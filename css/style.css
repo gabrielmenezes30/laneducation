@@ -1,0 +1,241 @@
+
+.navbar-inicial a{
+    color: #424242;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.body{
+    background-color: #F2F2F2;
+}
+
+.navbar a:hover{
+    color: #7401DF;
+}
+
+.navbar-text{
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+/*efeito scroll navbar*/
+
+.scrolling-active{
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+   
+}
+
+.scrolling-active .nave{
+    transition: 700ms ease-in;
+    height: 4.0rem;
+    background-color: #111;
+   
+    
+}
+
+.scrolling-active .nave  a{
+    color: #ffffff ;
+    
+}
+.scrolling-active .nave  a:hover{
+    color: #7401DF ;
+    transition: 200ms ease-in;
+}
+.scrolling-active .nave  span{
+    display: none;
+}
+
+.scrolling-active .nave  img{
+    display: none;
+}
+
+
+
+
+/*Conteudo principal botoes de links*/
+.propriedade-strong{
+    
+    color: #7401DF;
+}
+
+
+
+.conteudo-principal p{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9rem;
+}
+
+
+.botoes-pagina-inicial{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-estilizado{
+    border:2px solid #FF0040;
+    color: #ff0040;
+}
+.texto-botao{
+    font-size: 45px;
+   
+}
+
+.btn-estilizado{
+    width: 300px;
+    height: 110px;
+
+}
+
+.btn-estilizado:hover{
+    background-color: #ff0040;
+    color: #ffffff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .1s all ease;
+}
+
+.color-text{
+    color: #111111;
+}
+
+.imagens-instagram{
+    margin-top: 40px;
+}
+
+.imagens-instagram p{
+    font-size: 60px;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.paragrafo-postagens{
+    margin-top: 12rem;
+}
+
+.paragrafo-postagens hr{
+    border: 3px solid #FF0040;
+    width: 30%;
+}
+
+
+.imagens-instagram i{
+    animation: scroll 1s ease alternate infinite;
+    color: #FF0040;
+}
+
+/* Animação seta*/
+
+@keyframes scroll{
+   
+    to{
+        transform: translateX(100px)
+    }
+}
+
+.box-filme{
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;   
+}
+
+.cliqueparaver{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#section-artigos{
+    background-image: url(../imagens/svg/wavequadradoroxos.svg);
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+}
+
+
+.container-artigos p{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-artigos hr{
+    border: 3px solid #FF0040;
+    width: 30%;
+}
+
+.container-artigos-2{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 70%;
+}
+
+
+.card-img-top:hover{
+    box-sizing: border-box;
+    transform: scale(1.1);
+    transition: .1s all ease;
+}
+
+
+.footer{
+    margin-top: 10rem;
+    background-color: #151515;
+    padding-bottom: 10px;
+}
+
+.container-footer{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-size: 20px;
+}
+.imagem-footer{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagens-navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagens-contato{
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-final a{
+    color: #ffffff;
+    font-size: 15px;
+}

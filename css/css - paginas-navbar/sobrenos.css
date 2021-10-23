@@ -1,0 +1,156 @@
+.navbar-inicial{
+    background-color: #ffffff ;
+}
+
+.navbar-inicial a{
+    color: #424242;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.body{
+    background-color: #F2F2F2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar a:hover{
+    color: #7401DF;
+}
+
+.navbar-text{
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+#sobrenos{
+    margin-top: 10rem;
+}
+
+
+#sobrenos p{
+    margin-top: -3rem;
+    font-size: 70px;
+    margin-left: 1px;
+}
+
+.sobre-nos{
+    display: flex;
+}
+
+.sobre-nos h6{
+    font-size: 40px;
+}
+.texto-sobrenos{
+    display: flex;
+    align-items: center;
+}
+
+
+#section-2{
+    margin-top: 10rem;
+    background-color: #424242;
+    margin-bottom: 10rem;
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;  
+   
+}
+
+.section-2 p{
+    
+    color: #ffffff;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-3 p a{
+    font-size: 30px;
+    color: #7401df;
+    text-decoration: none;   
+}
+
+.container-1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-1 a:hover{
+    color: #FF0040;
+}
+
+@keyframes jump{
+    to{
+        transform: translateY(78px);
+    }
+}
+
+.instagram{
+    animation: jump 700ms ease-in alternate infinite;
+}
+
+#section-4{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
+.progresso{
+    font-size: 80px;
+    color: #ffffff;
+    background-color: #7401df;
+} 
+
+
+.footer{
+    margin-top: 10rem;
+    background-color: #151515;
+    padding-bottom: 10px;
+}
+
+.container-footer{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-size: 20px;
+}
+.imagem-footer{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagens-navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagens-contato{
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-final a{
+    color: #ffffff;
+    font-size: 15px;
+}

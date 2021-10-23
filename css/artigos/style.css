@@ -1,0 +1,98 @@
+.navbar-inicial{
+    background-color: #ffffff ;
+}
+
+.navbar-inicial a{
+    color: #424242;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html, .body{
+    background-color: #F2F2F2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar a:hover{
+    color: #7401DF;
+}
+
+.navbar-text{
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.botao{
+    background-color: #7401DF;
+    color: #ffffff;
+}
+
+.botao:hover{
+    color: #ffffff;
+    background-color: #FF0040;
+    transition: 100ms ease all;
+}
+
+.texto-1{
+    font-size: 40px;
+    color: #F2F2F2;
+}
+
+.ajustado{
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.paragrafo{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer{
+    margin-top: 10rem;
+    background-color: #151515;
+    padding-bottom: 10px;
+}
+
+.container-footer{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.propriedade-strong{
+    color: #7401DF;
+}
+
+.footer p{
+    font-size: 20px;
+}
+.imagem-footer{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagens-navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagens-contato{
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-final a{
+    color: #ffffff;
+    font-size: 15px;
+}
